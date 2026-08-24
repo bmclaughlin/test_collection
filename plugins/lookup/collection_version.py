@@ -67,7 +67,7 @@ import re
 import yaml
 
 from ansible.errors import AnsibleLookupError
-from ansible.module_utils.compat.importlib import import_module
+from importlib import import_module
 from ansible.plugins.lookup import LookupBase
 
 
